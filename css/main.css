@@ -97,8 +97,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
 
-
+    background: rgb(130, 130, 230);
+    text-align: centre;
+}
 
 
 
