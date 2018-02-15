@@ -98,12 +98,42 @@ textarea {
    ========================================================================== */
 
 body {
-
     background: rgb(130, 130, 230);
-    text-align: centre;
 }
 
+@font-face {
+    font-family: 'vtc_letterer_proregular';
+    src: url('VTC_letterer_pro-webfont.eot');
+    src: url('VTC_letterer_pro-webfont.eot?#iefix') format('embedded-opentype'),
+         url('VTC_letterer_pro-webfont.woff2') format('woff2'),
+         url('VTC_letterer_pro-webfont.woff') format('woff'),
+         url('VTC_letterer_pro-webfont.ttf') format('truetype'),
+         url('VTC_letterer_pro-webfont.svg#vtc_letterer_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+
+.burst {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 640px;
+    height: 495px;
+    line-height: 512px;
+    text-align: center;
+    margin-top: -256px;
+    margin-left: -256px;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-family: 'vtc_letterer_proregular';
+    font-size: 128px;
+}
 
 
 
