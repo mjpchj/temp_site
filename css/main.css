@@ -113,6 +113,7 @@ body {
     font-style: normal;
 
 }
+<<<<<<< HEAD
 
 .burst {
     position: fixed;
@@ -146,6 +147,19 @@ body {
 
 .toptext {
     margin-top: 0px;
+=======
+
+.burst {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 640px;
+    height: 495px;
+    line-height: 512px;
+    text-align: center;
+    margin-top: -256px;
+    margin-left: -256px;
+>>>>>>> 4ea957897695705ea2be68e9ee69416169c24188
 }
 
 .centered {
@@ -155,7 +169,10 @@ body {
     transform: translate(-50%, -50%);
     font-family: 'vtc_letterer_proregular';
     font-size: 128px;
+<<<<<<< HEAD
     color: black;
+=======
+>>>>>>> 4ea957897695705ea2be68e9ee69416169c24188
 }
 
 
